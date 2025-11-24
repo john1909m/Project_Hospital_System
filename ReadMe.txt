@@ -44,7 +44,7 @@ A **web-based Hospital Management System** that allows **patients, doctors, and 
 
 ### 1️⃣ Clone the repository
    ```bash
-   git clone <https://github.com/john1909m/Project_Hospital_System/tree/main>
+   git clone https://github.com/john1909m/Project_Hospital_System/tree/main
    cd Project_Hospital_System
 
 ### 2️⃣ Run FrontEnd:
