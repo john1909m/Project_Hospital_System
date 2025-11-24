@@ -1,0 +1,17 @@
+.modal{
+    background-color: white;
+    border-radius: 20px;
+    max-height: 90vh;
+}
+.back{
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.input_add{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
