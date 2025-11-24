@@ -1,0 +1,30 @@
+#########################
+
+spring:
+  application:
+    name: Hospital-Syste
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/orclpdb
+    username: Hospital_System
+    password: hospital1909
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+token:
+  secret: hjfs46687kjsfkj@#@$#$@$%ffeddf@#sADDS
+  time: 36000000
+
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql: trace
